@@ -9,18 +9,10 @@
 		"build": "tsc --build",
 		"dev": "tsc --build && nodemon --inspect .",
 		"lint": "eslint --fix src/**/*.ts",
-		"watch": "nodemon --watch 'src/**/*.ts' --exec yarn dev"
+		"watch": "nodemon"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/unlimitedcoder2/typescript-base.git"
-	},
-	"author": "unlimitedcoder2",
+	"author": "Rhys-Woolcott",
 	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/unlimitedcoder2/typescript-base/issues"
-	},
-	"homepage": "https://github.com/unlimitedcoder2/typescript-base#readme",
 	"devDependencies": {
 		"@types/node": "^14.0.14",
 		"typescript": "^3.9.5",
