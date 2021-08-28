@@ -1,0 +1,16 @@
+{
+	"ValleyBot command template": {
+		"prefix": "vbc",
+		"body": [
+			"import { Command, CommandExecutor, CommandExecutorArgs } from \"ndbf\";",
+			"",
+			"@Command(\"${1:changeme}\")",
+			"export class ${2:ChangeMe}Command implements CommandExecutor {",
+			"\tasync execute({ bot, msg, args }: CommandExecutorArgs) {",
+			"\t\t",
+			"\t}",
+			"}"
+		],
+		"description": "ValleyBot command template"
+	}
+}
